@@ -27,7 +27,7 @@ namespace WebApplication1
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("პროქტი გაშვებულია v3");
+                await context.Response.WriteAsync("პროქტი გაშვებულია v4");
             });
         }
     }
